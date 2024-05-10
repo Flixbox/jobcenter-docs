@@ -4,7 +4,7 @@ import starlight from '@astrojs/starlight';
 // https://astro.build/config
 export default defineConfig({
 	site: 'https://flixbox.github.io',
-  	base: 'jobcenter-docs',
+  	base: '/jobcenter-docs',
 	integrations: [
 		starlight({
 			title: 'My Docs',
@@ -19,7 +19,7 @@ export default defineConfig({
 					label: 'Guides',
 					items: [
 						// Each item here is one entry in the navigation menu.
-						{ label: 'Example Guide', link: '/guides/example/' },
+						{ label: 'Example Guide', link: '/jobcenter-docs/guides/example/' },
 					],
 				},
 				{
