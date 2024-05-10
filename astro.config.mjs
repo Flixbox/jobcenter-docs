@@ -7,11 +7,11 @@ export default defineConfig({
 		starlight({
 			title: 'My Docs',
 			social: {
-				github: 'https://github.com/withastro/starlight',
+				github: 'https://github.com/Flixbox/jobcenter-docs',
 			},
 			editLink: {
-        baseUrl: 'https://github.com/withastro/starlight/edit/main/docs/',
-      },
+        		baseUrl: 'https://github.com/Flixbox/jobcenter-docs/edit/main/docs/',
+      		},
 			sidebar: [
 				{
 					label: 'Guides',
