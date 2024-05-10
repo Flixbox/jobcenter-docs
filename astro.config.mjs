@@ -12,7 +12,7 @@ export default defineConfig({
 				github: 'https://github.com/Flixbox/jobcenter-docs',
 			},
 			editLink: {
-        		baseUrl: 'https://github.com/Flixbox/jobcenter-docs/edit/',
+        		baseUrl: 'https://github.com/Flixbox/jobcenter-docs/edit/main/',
       		},
 			sidebar: [
 				{
